@@ -82,6 +82,7 @@ while True:
             cx, cy = int(lm.x * w), int(lm.y * h)
             points[id] = (cx, cy)
 
+        #Highlighting Points
         cv2.circle(img, points[14], 15, (0, 0, 255), cv2.FILLED)
         cv2.circle(img, points[16], 15, (0, 0, 255), cv2.FILLED)
         cv2.circle(img, points[13], 15, (0, 0, 255), cv2.FILLED)
