@@ -1,3 +1,3 @@
 # Workout Rep Counter
 
-### Various Counter is being built!
+### Various Counter is being built
